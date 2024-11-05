@@ -11,9 +11,7 @@ def martial_art_feeback(martialart, efficiency):
     else:
         print("Do not learn this, this does not help in MMA")
         
-martial_art_feeback("muay thai", 94)
-martial_art_feeback("wing chun", 25)
-print("-------------------------------------------------")
+
 
 # non keywork argument with *args
 def order_food(min_order, *args): 
@@ -25,9 +23,7 @@ def order_food(min_order, *args):
     print("Enjoy the party")
     
 
-order_food("salad", "pizza", "cake", "kebab")
 
-print("-------------------------------------------------")
 #  keywork argument with *args
 def time_activity(*args, **kargs):
     print(args)
@@ -38,4 +34,3 @@ def time_activity(*args, **kargs):
     print(choice)
     print(f"You have decided to send {min} minutes for {kargs[choice]}")
 
-time_activity(10,20,10 , hobby="Muay Thai", sport="MMA", fun="Gaming", work="Dev and Ops");

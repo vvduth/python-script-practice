@@ -1,0 +1,9 @@
+# Steps:
+* add users
+* add group
+* add user into the group
+* create dir
+* assign ownership to user 
+* test if user exiest, if not create into
+* ssh in python
+* web serevr provosioning with python fabric.
